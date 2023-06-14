@@ -1,9 +1,9 @@
 /// <referece types="Cypress"/>
 
 describe('Testes funcionais de cadastro', () => {
-  beforeEach(() => {
-    cy.visit("https://www.natura.com.br/");
-  });
+    beforeEach(() => {
+        cy.visit("https://www.natura.com.br/", { timeout: 10000 });
+    });
 
   it('Deve realizar o cadastro com sucesso', () => {
     cy.realizarCadastro();

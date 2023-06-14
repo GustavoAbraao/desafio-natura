@@ -1,0 +1,18 @@
+{
+  "name": "desafio-natura",
+  "version": "1.0.0",
+  "description": "Desafio cadastrar um usuário",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "Gustavo Abraao",
+  "license": "ISC",
+  "devDependencies": {
+    "cpf-cnpj-validator": "^1.0.3",
+    "cypress": "^12.14.0",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2"
+  }
+}

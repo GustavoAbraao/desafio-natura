@@ -12,4 +12,8 @@ Execute o comando npm install (ou npm i para a versão curta) para instalar as d
 ## Testes
 Execute o comando 'npx cypress run' para executar os testes no modo headless.
 
+<<<<<<< HEAD
 Ou execute o comando 'npx cypress open' para abrir o Cypress no modo interativo.
+=======
+Ou execute o comando 'npx cypress open' para abrir o Cypress no modo interativo.
+>>>>>>> 5ba445c5676768154c1600305e19ba8c6e27609a

@@ -1,5 +1,5 @@
 # Desafio_cadastro e2e
-Projeto end-to-end feito para cadastro no site Natura.
+Projeto end-to-end feito para cadastro no site Natura utilizando a biblioteca "faker" para gerar dados aleatórios.
 
 ## Pré-requisitos
 É necessário ter o Node.js e o npm instalados para executar este projeto.

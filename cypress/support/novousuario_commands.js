@@ -9,6 +9,8 @@ Cypress.Commands.add('realizarCadastro', () => {
   const fakeEmail = faker.internet.email();
   const fakeCPF = cpf.generate();
   const fakePassword = faker.internet.password(8, false, /[a-zA-Z]/, 'A1e9@', /[!@#$%^&*()]/);
+  const phoneNumber = faker.phone.phoneNumber();
+
 
   cy.get('i.material-icons.MuiIcon-root.natds-icons.natds-icons-filled-navigation-menu').click();
   cy.contains('Cadastrar-se', { timeout: 5000 }).should('be.visible').click();
@@ -20,9 +22,9 @@ Cypress.Commands.add('realizarCadastro', () => {
   cy.get('#confirmPassword-field').type(fakePassword);
   cy.get('input[name="cpf"]').type(fakeCPF);
   cy.get('input[type="radio"][value="male"]').click();
-  cy.get('input[name="homePhone"]').type("(71) 98806-6768");
+  cy.get('input[name="homePhone"]').type(phoneNumber);
   cy.get('#pushOptInWP').click();
-  cy.get('input[name="whatsappPhone"]').type("(71) 98806-6768");
+  cy.get('input[name="whatsappPhone"]').type(phoneNumber);
   cy.get('#acceptedterms').click();
   cy.contains('button', 'Criar Conta').click();
 

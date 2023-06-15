@@ -16,6 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './novousuario_commands'
+import './usuarioaesop_commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

@@ -1,6 +1,6 @@
 /// <referece types="Cypress"/>
 
-describe('Testes funcionais de cadastro', () => {
+describe('Testes funcionais de cadastro Natura', () => {
     beforeEach(() => {
         cy.visit("https://www.natura.com.br/", { timeout: 50000 });
     });

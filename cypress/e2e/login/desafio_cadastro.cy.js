@@ -5,7 +5,7 @@ describe('Testes funcionais de cadastro', () => {
         cy.visit("https://www.natura.com.br/", { timeout: 50000 });
     });
 
-  it.only('Deve realizar o cadastro com sucesso', () => {
+  it('Deve realizar o cadastro com sucesso', () => {
     cy.realizarCadastro();
   });
    

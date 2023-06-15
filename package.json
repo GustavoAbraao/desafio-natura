@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "Gustavo Abraao",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "cpf-cnpj-validator": "^1.0.3",
     "cypress": "^12.14.0",
